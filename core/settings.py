@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-p^2=cs9i8__vwl0^wz$=dx(-fi8*=rr^c-sj!vh8686&*50b#c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://ugotodoapp.herokuapp.com/']
 
@@ -103,9 +103,9 @@ WSGI_APPLICATION = "core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": env('DATABASE_NAME'),
-        "USER": env('DATABASE_USER'),
-        "PASSWORD": env('DATABASE_PASSWORD'),
+        "NAME": 'plfniedw',
+        "USER": 'plfniedw',
+        "PASSWORD": 'aJVvf_Up6YwCMs2jlzn-rDGg4r7wufli',
         "HOST": "peanut.db.elephantsql.com",
         "PORT": "5432"
 
